@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{48B17194-ECA9-3DBE-91AB-FA9CAF937E2B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -SE:/programirane/PokerStars/SimpleGame/SimpleGame -BE:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32 --check-stamp-file E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cocos/CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\audio\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\math\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\navmesh\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\network\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics3d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -SE:/programirane/PokerStars/SimpleGame/SimpleGame -BE:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32 --check-stamp-file E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cocos/CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\audio\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\math\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\navmesh\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\network\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics3d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -SE:/programirane/PokerStars/SimpleGame/SimpleGame -BE:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32 --check-stamp-file E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cocos/CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\audio\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\math\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\navmesh\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\network\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics3d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -SE:/programirane/PokerStars/SimpleGame/SimpleGame -BE:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32 --check-stamp-file E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cocos/CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\audio\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\math\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\navmesh\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\network\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics3d\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{C227EA52-CC86-3561-8F9C-8C229F168C2C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{C453A39A-1058-3A7D-AFF5-BCEDCC67CE97}</Project>
+      <Name>cocos2d</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{AB33C3D6-FE66-3B7E-AEF9-392E7EEA70CA}</Project>
+      <Name>ext_clipper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{53640C70-EE2C-3BC4-A6E7-EFAC07C43F00}</Project>
+      <Name>ext_convertUTF</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{E5CE5D6B-191D-3FD9-AAD3-83069E26A686}</Project>
+      <Name>ext_edtaa3func</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{BAD4FBCC-17FF-33CA-ADA8-96BB555AA1F3}</Project>
+      <Name>ext_md5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{B550E40F-DA7A-37E9-8AE7-1B051CCBB3BD}</Project>
+      <Name>ext_poly2tri</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{3D5A3447-1E04-3509-BA36-B93B068E9A1A}</Project>
+      <Name>ext_recast</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{5CA58D75-05A8-3352-A1EE-5594C8EAC21D}</Project>
+      <Name>ext_tinyxml2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{ACCC281A-9EBF-35CC-9FCF-131A7B44DF65}</Project>
+      <Name>ext_unzip</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{84087F3D-9CB5-3CCD-BA41-8031883043D0}</Project>
+      <Name>ext_xxhash</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{DB05D646-9A49-3416-82F0-8F41B2843531}</Project>
+      <Name>ext_xxtea</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\engine\external\external.vcxproj">
+      <Project>{07DE3A4F-FBEB-3DC4-B07C-ECA0D24C49FF}</Project>
+      <Name>external</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

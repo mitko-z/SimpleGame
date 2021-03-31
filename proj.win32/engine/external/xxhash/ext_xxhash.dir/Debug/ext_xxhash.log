@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/external/xxhash/CMakeLists.txt
+  CMake does not need to re-run because E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/engine/external/xxhash/CMakeFiles/generate.stamp is up-to-date.
+  xxhash.c
+  ext_xxhash.vcxproj -> E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\lib\Debug\ext_xxhash.lib

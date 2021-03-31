@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38C20A84-D254-3ED5-8603-FE61953B6DB0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>SYNC_RESOURCE-SimpleGame</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -E echo "    copying to E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/$(Configuration)/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python27\python.exe E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cmake/scripts/sync_folder.py -s E:/programirane/PokerStars/SimpleGame/SimpleGame/Resources -d E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/$(Configuration)/Resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -E echo "    copying to E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/$(Configuration)/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python27\python.exe E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cmake/scripts/sync_folder.py -s E:/programirane/PokerStars/SimpleGame/SimpleGame/Resources -d E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/$(Configuration)/Resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -E echo "    copying to E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/$(Configuration)/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python27\python.exe E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cmake/scripts/sync_folder.py -s E:/programirane/PokerStars/SimpleGame/SimpleGame/Resources -d E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/$(Configuration)/Resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -E echo "    copying to E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/$(Configuration)/Resources"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python27\python.exe E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/cmake/scripts/sync_folder.py -s E:/programirane/PokerStars/SimpleGame/SimpleGame/Resources -d E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/$(Configuration)/Resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\f0fc5734b89dee80a54b71ed1ccbda67\SYNC_RESOURCE-SimpleGame.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -E echo "Copying resources for SimpleGame ..."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/f0fc5734b89dee80a54b71ed1ccbda67/SYNC_RESOURCE-SimpleGame.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\SYNC_RESOURCE-SimpleGame</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -E echo "Copying resources for SimpleGame ..."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/f0fc5734b89dee80a54b71ed1ccbda67/SYNC_RESOURCE-SimpleGame.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\SYNC_RESOURCE-SimpleGame</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -E echo "Copying resources for SimpleGame ..."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/f0fc5734b89dee80a54b71ed1ccbda67/SYNC_RESOURCE-SimpleGame.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\SYNC_RESOURCE-SimpleGame</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -E echo "Copying resources for SimpleGame ..."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/f0fc5734b89dee80a54b71ed1ccbda67/SYNC_RESOURCE-SimpleGame.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\SYNC_RESOURCE-SimpleGame</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -SE:/programirane/PokerStars/SimpleGame/SimpleGame -BE:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32 --check-stamp-file E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCCompilerABI.c;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseArguments.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeRCInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystem.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosBuildSet.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosConfigDefine.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosConfigDepend.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeCCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeSystem.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\feature_tests.c;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\feature_tests.cxx;E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -SE:/programirane/PokerStars/SimpleGame/SimpleGame -BE:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32 --check-stamp-file E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCCompilerABI.c;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseArguments.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeRCInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystem.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosBuildSet.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosConfigDefine.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosConfigDepend.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeCCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeSystem.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\feature_tests.c;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\feature_tests.cxx;E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -SE:/programirane/PokerStars/SimpleGame/SimpleGame -BE:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32 --check-stamp-file E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCCompilerABI.c;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseArguments.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeRCInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystem.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosBuildSet.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosConfigDefine.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosConfigDepend.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeCCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeSystem.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\feature_tests.c;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\feature_tests.cxx;E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\Programs\cmake-3.14.1-win32-x86\bin\cmake.exe -SE:/programirane/PokerStars/SimpleGame/SimpleGame -BE:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32 --check-stamp-file E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCCompilerABI.c;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseArguments.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeRCInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystem.cmake.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\Windows.cmake;E:\Programs\cmake-3.14.1-win32-x86\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosBuildSet.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosConfigDefine.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cmake\Modules\CocosConfigDepend.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeCCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\3.14.1\CMakeSystem.cmake;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\feature_tests.c;E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\feature_tests.cxx;E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\SYNC_RESOURCE-SimpleGame" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{C227EA52-CC86-3561-8F9C-8C229F168C2C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

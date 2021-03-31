@@ -1,0 +1,22 @@
+﻿  Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/external/recast/CMakeLists.txt
+  CMake does not need to re-run because E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/engine/external/recast/CMakeFiles/generate.stamp is up-to-date.
+  DebugDraw.cpp
+  DetourDebugDraw.cpp
+  DetourAlloc.cpp
+  DetourCommon.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  DetourCrowd.cpp
+  DetourLocalBoundary.cpp
+  DetourObstacleAvoidance.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\external\recast\DetourCrowd\DetourObstacleAvoidance.cpp(334): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  DetourPathCorridor.cpp
+  DetourPathQueue.cpp
+  DetourProximityGrid.cpp
+  DetourTileCache.cpp
+  DetourTileCacheBuilder.cpp
+  Generating Code...
+  fastlz.c
+  ext_recast.vcxproj -> E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\lib\Debug\ext_recast.lib

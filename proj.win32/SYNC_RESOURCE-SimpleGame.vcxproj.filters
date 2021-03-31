@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\f0fc5734b89dee80a54b71ed1ccbda67\SYNC_RESOURCE-SimpleGame.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\CMakeFiles\SYNC_RESOURCE-SimpleGame" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E06B9299-42A1-3276-8A07-82B49A3A2EB2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

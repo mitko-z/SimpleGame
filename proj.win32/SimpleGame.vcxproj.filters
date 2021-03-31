@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{AA90AB64-CE80-35FE-9910-0A401C4A3729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{EE1BEA6C-0ED0-353F-9B72-7188474E34F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{4D1E98E2-F39C-3F56-9511-3D2C4DED3F34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0F01E45A-4D27-3482-90C7-7A69AF46DC32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{A619FDBE-539D-3340-B78A-C30ACB3DDCFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{31ABFB02-8E83-3665-954D-99FFCE51178A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\res\direction.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-1.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-2.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-3.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-4.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-5.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-6.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-6b.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-7.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-8.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-9.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-10.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-11.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-jelly.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Ship-jelly-2.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\shoot-3.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Spaceman.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Spaceman-shot1_004.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
