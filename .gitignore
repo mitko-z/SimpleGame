@@ -31,5 +31,14 @@
 *.out
 *.app
 
-#ipch files
+#others
 *.ipch
+*.suo
+*.db
+*.opendb
+*.db-shm
+*.db-wal
+*.ilk
+*.pdb
+*.log
+*.tlog

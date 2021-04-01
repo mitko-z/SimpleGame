@@ -73,17 +73,16 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto glview = director->getOpenGLView();
     if(!glview) {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
-        glview = GLViewImpl::createWithRect("SimpleGame", cocos2d::Rect(0, 0, designResolutionSize.width, designResolutionSize.height), 1);
+        glview = GLViewImpl::createWithRect("SimpleGame", cocos2d::Rect(0, 0, mediumResolutionSize.width, mediumResolutionSize.height), 1);
 #else
         glview = GLViewImpl::create("SimpleGame");
 #endif
         director->setOpenGLView(glview);
     }
 	
-	// 1
 	Size designSize = Size(480, 320);
 	Size resourceSize = Size(960, 640);
-	// 2
+	 
 	director->setContentScaleFactor(resourceSize.height / designSize.height);
 	director->getOpenGLView()->setDesignResolutionSize(
 		designSize.width, designSize.height, ResolutionPolicy::FIXED_HEIGHT);
