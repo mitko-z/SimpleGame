@@ -23,6 +23,7 @@
  ****************************************************************************/
 
 #include "HelloWorldScene.h"
+#include "AlienShip.h"
 
 USING_NS_CC;
 
@@ -60,6 +61,10 @@ bool HelloWorld::init()
 	_player->setScale(winSize.width / 800, winSize.height / 800);
 	_player->setPosition(Vec2(winSize.width * 0.55, winSize.height * 0.1));
 	this->addChild(_player);
+
+
+	srand((unsigned int)time(nullptr));
+	this->schedule(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), 10);
 
     return true;
 }

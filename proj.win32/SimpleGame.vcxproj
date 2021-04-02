@@ -801,10 +801,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\AlienShip.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\AlienShip.cpp" />
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.cpp" />
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.cpp" />
