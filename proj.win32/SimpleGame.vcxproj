@@ -802,13 +802,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AlienShip.h" />
+    <ClInclude Include="..\Classes\Timer.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.h" />
-    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\Game.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\resource.h" />
     <ClCompile Include="..\Classes\AlienShip.cpp" />
+    <ClCompile Include="..\Classes\Timer.cpp" />
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.cpp" />
-    <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\Game.cpp" />
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.cpp" />
     <ResourceCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\game.rc" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Resources\CloseNormal.png" />
@@ -921,7 +923,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Image Include="..\Resources\res\Ship-9.png" />
     <Image Include="..\Resources\res\Ship-jelly-2.png" />
     <Image Include="..\Resources\res\Ship-jelly.png" />
-    <Image Include="..\Resources\res\shoot-3.png" />
+    <Image Include="..\Resources\res\shoot-4.png" />
     <Image Include="..\Resources\res\Spaceman-shot1_004.png" />
     <Image Include="..\Resources\res\Spaceman.png" />
   </ItemGroup>

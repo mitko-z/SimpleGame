@@ -1,4 +1,4 @@
 ﻿  HelloWorldScene.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.cpp(55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.cpp(61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.cpp(56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.cpp(62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   SimpleGame.vcxproj -> E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\bin\SimpleGame\Debug\SimpleGame.exe

@@ -126,13 +126,13 @@
     <Image Include="..\Resources\res\Ship-jelly-2.png">
       <Filter>Resources\res</Filter>
     </Image>
-    <Image Include="..\Resources\res\shoot-3.png">
-      <Filter>Resources\res</Filter>
-    </Image>
     <Image Include="..\Resources\res\Spaceman.png">
       <Filter>Resources\res</Filter>
     </Image>
     <Image Include="..\Resources\res\Spaceman-shot1_004.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\shoot-4.png">
       <Filter>Resources\res</Filter>
     </Image>
   </ItemGroup>
