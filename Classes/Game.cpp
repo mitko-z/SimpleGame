@@ -96,7 +96,10 @@ bool Game::onTouchBegan(Touch *touch, Event *unused_event)
 	if (_playerCanFire)
 	{
 		_playerCanFire = false;
-		_timeRemainingToNextFire = _playerFiringRate;
+		_timeRemainingToNextPlayerFire = _playerFiringRate;
+		_playerFiringRate -= PLAYER_FIRING_RATE_STEP_DECREASING;
+		if (_playerFiringRate < PLAYER_MIN_FIRING_RATE) 
+			_playerFiringRate = PLAYER_MIN_FIRING_RATE;
 
 		Vec2 touchLocation = touch->getLocation();
 		Vec2 offset = touchLocation - _player->getPosition();
@@ -119,7 +122,11 @@ bool Game::onTouchBegan(Touch *touch, Event *unused_event)
 
 		auto realDest = shootAmount + projectile->getPosition();
 
-		auto actionMove = MoveTo::create(10.0f, realDest);
+		auto actionMove = MoveTo::create(_projectileDuration, realDest);
+		_projectileDuration -= PROJECTILE_DURATION_STEP_DECREASING;
+		if (_projectileDuration < PROJECTILE_MIN_DURATION)
+			_projectileDuration = PROJECTILE_MIN_DURATION;
+
 		auto actionRemove = RemoveSelf::create();
 		projectile->runAction(Sequence::create(actionMove, actionRemove, nullptr));
 		AudioEngine::play2d("audio/Laser_Gun.mp3");
@@ -132,9 +139,9 @@ void Game::update(float dt)
 {
 	if (!_playerCanFire) 
 	{
-		_timeRemainingToNextFire -= dt;
+		_timeRemainingToNextPlayerFire -= dt;
 		// check if time ran out
-		if (_timeRemainingToNextFire <= 0.f) 
+		if (_timeRemainingToNextPlayerFire <= 0.f) 
 		{
 			_playerCanFire = true;
 		}

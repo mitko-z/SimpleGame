@@ -908,15 +908,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\res\direction.png" />
-    <Image Include="..\Resources\res\explosion-01.png" />
-    <Image Include="..\Resources\res\explosion-02.png" />
-    <Image Include="..\Resources\res\explosion-03.png" />
-    <Image Include="..\Resources\res\explosion-04.png" />
-    <Image Include="..\Resources\res\explosion-05.png" />
-    <Image Include="..\Resources\res\explosion-06.png" />
-    <Image Include="..\Resources\res\explosion-07.png" />
-    <Image Include="..\Resources\res\explosion-08.png" />
-    <Image Include="..\Resources\res\explosion-09.png" />
     <Image Include="..\Resources\res\Ship-1.png" />
     <Image Include="..\Resources\res\Ship-10.png" />
     <Image Include="..\Resources\res\Ship-11.png" />

@@ -27,6 +27,11 @@
 
 #include "cocos2d.h"
 
+#define PLAYER_FIRING_RATE_STEP_DECREASING 0.1
+#define PLAYER_MIN_FIRING_RATE 0.5
+#define PROJECTILE_DURATION_STEP_DECREASING 0.1
+#define PROJECTILE_MIN_DURATION 1.0
+
 using namespace cocos2d;
 
 class Game : public cocos2d::Scene
@@ -49,8 +54,9 @@ private:
 	Sprite* _background;
 	Sprite* _player;
 	bool _playerCanFire{ true };
-	const float _playerFiringRate{ 5.0f };
-	float _timeRemainingToNextFire{ 0.0f };
+	float _playerFiringRate{ 5.0f };
+	float _timeRemainingToNextPlayerFire{ 0.0f };
+	float _projectileDuration{ 10.0f };
 };
 
 #endif // __GAME_H__
