@@ -908,6 +908,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\res\direction.png" />
+    <Image Include="..\Resources\res\explosion-01.png" />
+    <Image Include="..\Resources\res\explosion-02.png" />
+    <Image Include="..\Resources\res\explosion-03.png" />
+    <Image Include="..\Resources\res\explosion-04.png" />
+    <Image Include="..\Resources\res\explosion-05.png" />
+    <Image Include="..\Resources\res\explosion-06.png" />
+    <Image Include="..\Resources\res\explosion-07.png" />
+    <Image Include="..\Resources\res\explosion-08.png" />
+    <Image Include="..\Resources\res\explosion-09.png" />
     <Image Include="..\Resources\res\Ship-1.png" />
     <Image Include="..\Resources\res\Ship-10.png" />
     <Image Include="..\Resources\res\Ship-11.png" />
@@ -929,6 +938,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <Media Include="..\Resources\audio\Laser_Gun.mp3" />
     <Media Include="..\Resources\audio\Prism_-_Bobby_Richards_[trimmed].mp3" />
+    <Media Include="..\Resources\audio\ship_destroyed.mp3" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

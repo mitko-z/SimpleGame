@@ -26,6 +26,7 @@
 #include "AlienShip.h"
 #include "Definitions.h"
 #include "AudioEngine.h"
+#include "2d/CCAnimation.h"
 
 USING_NS_CC;
 
@@ -73,7 +74,7 @@ bool Game::init()
 
 
 	srand((unsigned int)time(nullptr));
-	this->schedule(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), 10);
+	this->scheduleOnce(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), AlienShip::calculateNextTimeOfAppearance());
 	
 	this->scheduleUpdate();
 
@@ -139,12 +140,18 @@ void Game::update(float dt)
 		}
 	}
 
+	if (!this->isScheduled(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene)))
+	{
+		this->scheduleOnce(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), AlienShip::calculateNextTimeOfAppearance());
+	}
 }
 
 bool Game::onContactBegan(PhysicsContact & contact)
 {
 	auto nodeA = contact.getShapeA()->getBody()->getNode();
 	auto nodeB = contact.getShapeB()->getBody()->getNode();
+
+	AudioEngine::play2d("audio/ship_destroyed.mp3");
 
 	nodeA->removeFromParent();
 	nodeB->removeFromParent();

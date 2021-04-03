@@ -137,12 +137,42 @@
     <Image Include="..\Resources\res\shoot-4.png">
       <Filter>Resources\res</Filter>
     </Image>
+    <Image Include="..\Resources\res\explosion-01.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\explosion-02.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\explosion-03.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\explosion-04.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\explosion-05.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\explosion-06.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\explosion-07.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\explosion-08.png">
+      <Filter>Resources\res</Filter>
+    </Image>
+    <Image Include="..\Resources\res\explosion-09.png">
+      <Filter>Resources\res</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\Resources\audio\Prism_-_Bobby_Richards_[trimmed].mp3">
       <Filter>Resources\audio</Filter>
     </Media>
     <Media Include="..\Resources\audio\Laser_Gun.mp3">
+      <Filter>Resources\audio</Filter>
+    </Media>
+    <Media Include="..\Resources\audio\ship_destroyed.mp3">
       <Filter>Resources\audio</Filter>
     </Media>
   </ItemGroup>

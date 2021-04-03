@@ -1,7 +1,3 @@
-Make when projectile hits a ship an explosion animation & sound to be played
-
-Make the ships to appear more often and to bekome more faster over time
-
 Make when a ship hits the ground the game to be over
 
 Make a home screen
@@ -9,3 +5,7 @@ Make a home screen
 Make points to be displayed in the screen presenting how many ships the player hits
 
 Make the the bigger ships to require more hits in order to die
+
+Make when projectile hits a ship an explosion animation to be played
+
+Make the mouse pointer to be custom one

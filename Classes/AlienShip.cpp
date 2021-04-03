@@ -33,10 +33,25 @@ void AlienShip::addShipToScene(float dt)
 	auto actionMove = MoveTo::create(randomDuration, Vec2(randomX, -shipContentSize.height / 2));
 	auto actionRemove = RemoveSelf::create();
 	alienShip->runAction(Sequence::create(actionMove, actionRemove, nullptr));
+
+	// making next ships a little bit faster
+	m_minDuration -= MIN_DURATION_STEP_DECREASING;
+	m_maxDuration -= MAX_DURATION_STEP_DECREASING;
+	if (m_minDuration < 0) m_minDuration = 0;
+	if (m_maxDuration < 0) m_maxDuration = 0;
 }
 
-int AlienShip::m_minDuration{ 15 };
-int AlienShip::m_maxDuration{ 30 };
+float AlienShip::calculateNextTimeOfAppearance()
+{
+	float result = m_timeOfAppearance;
+	m_timeOfAppearance -= TIME_OF_APPEARANCE_STEP_DECREASING;
+	if (m_timeOfAppearance < MIN_TIME_OF_APPEARANCE) m_timeOfAppearance = MIN_TIME_OF_APPEARANCE;
+	return result;
+}
+
+float AlienShip::m_timeOfAppearance{ 10 };
+float AlienShip::m_minDuration{ 15 };
+float AlienShip::m_maxDuration{ 30 };
 std::vector<std::string> AlienShip::m_spritesList
 											{
 												"res/Ship-1.png",
