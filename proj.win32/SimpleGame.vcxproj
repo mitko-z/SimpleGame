@@ -926,6 +926,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Image Include="..\Resources\res\Spaceman-shot1_004.png" />
     <Image Include="..\Resources\res\Spaceman.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\audio\Laser_Gun.mp3" />
+    <Media Include="..\Resources\audio\Prism_-_Bobby_Richards_[trimmed].mp3" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

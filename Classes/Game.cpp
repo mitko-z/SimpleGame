@@ -25,6 +25,7 @@
 #include "Game.h"
 #include "AlienShip.h"
 #include "Definitions.h"
+#include "AudioEngine.h"
 
 USING_NS_CC;
 
@@ -84,6 +85,8 @@ bool Game::init()
 	contactListener->onContactBegin = CC_CALLBACK_1(Game::onContactBegan, this);
 	this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
 
+	AudioEngine::play2d("audio/Prism_-_Bobby_Richards_[trimmed].mp3", true);
+
     return true;
 }
 
@@ -118,6 +121,7 @@ bool Game::onTouchBegan(Touch *touch, Event *unused_event)
 		auto actionMove = MoveTo::create(10.0f, realDest);
 		auto actionRemove = RemoveSelf::create();
 		projectile->runAction(Sequence::create(actionMove, actionRemove, nullptr));
+		AudioEngine::play2d("audio/Laser_Gun.mp3");
 	}
 
 	return true;

@@ -78,6 +78,9 @@
     <Filter Include="Source Files\proj.win32">
       <UniqueIdentifier>{31ABFB02-8E83-3665-954D-99FFCE51178A}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resources\audio">
+      <UniqueIdentifier>{46f1d5b6-8cc3-4d83-8ffe-f0f04ce13766}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\res\direction.png">
@@ -134,5 +137,13 @@
     <Image Include="..\Resources\res\shoot-4.png">
       <Filter>Resources\res</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\audio\Prism_-_Bobby_Richards_[trimmed].mp3">
+      <Filter>Resources\audio</Filter>
+    </Media>
+    <Media Include="..\Resources\audio\Laser_Gun.mp3">
+      <Filter>Resources\audio</Filter>
+    </Media>
   </ItemGroup>
 </Project>
