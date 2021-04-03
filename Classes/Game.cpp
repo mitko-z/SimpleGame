@@ -24,12 +24,20 @@
 
 #include "Game.h"
 #include "AlienShip.h"
+#include "Definitions.h"
 
 USING_NS_CC;
 
 Scene* Game::createScene()
 {
-    return Game::create();
+	auto scene = Scene::createWithPhysics();
+	scene->getPhysicsWorld()->setGravity(Vec2(0, 0));
+	//scene->getPhysicsWorld()->setDebugDrawMask(PhysicsWorld::DEBUGDRAW_ALL);
+	
+	auto layer = Game::create();
+	scene->addChild(layer);
+
+    return scene;
 }
 
 // Print useful error message instead of segfaulting when files are not there.
@@ -72,6 +80,10 @@ bool Game::init()
 	eventListener->onTouchBegan = CC_CALLBACK_2(Game::onTouchBegan, this);
 	this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(eventListener, _player);
 
+	auto contactListener = EventListenerPhysicsContact::create();
+	contactListener->onContactBegin = CC_CALLBACK_1(Game::onContactBegan, this);
+	this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
+
     return true;
 }
 
@@ -87,6 +99,15 @@ bool Game::onTouchBegan(Touch *touch, Event *unused_event)
 
 		auto projectile = Sprite::create("res/shoot-4.png");
 		projectile->setPosition(_player->getPosition());
+
+		auto projectileSize = projectile->getContentSize();
+		auto physicsBody = PhysicsBody::createCircle(projectileSize.width / 2);
+		physicsBody->setDynamic(true);
+		physicsBody->setCategoryBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_PROJECTILE);
+		physicsBody->setCollisionBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_NONE);
+		physicsBody->setContactTestBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_ALIEN_SHIP);
+		projectile->setPhysicsBody(physicsBody);
+
 		this->addChild(projectile);
 
 		offset.normalize();
@@ -114,4 +135,14 @@ void Game::update(float dt)
 		}
 	}
 
+}
+
+bool Game::onContactBegan(PhysicsContact & contact)
+{
+	auto nodeA = contact.getShapeA()->getBody()->getNode();
+	auto nodeB = contact.getShapeB()->getBody()->getNode();
+
+	nodeA->removeFromParent();
+	nodeB->removeFromParent();
+	return true;
 }

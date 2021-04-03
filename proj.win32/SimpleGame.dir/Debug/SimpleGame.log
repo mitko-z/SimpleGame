@@ -1,5 +1,6 @@
-﻿  Game.cpp
-  AppDelegate.cpp
-..\Classes\Game.cpp(56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-..\Classes\Game.cpp(62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+﻿  AlienShip.cpp
+..\Classes\AlienShip.cpp(22): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\Classes\AlienShip.cpp(23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\Classes\AlienShip.cpp(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+..\Classes\AlienShip.cpp(33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   SimpleGame.vcxproj -> E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\bin\SimpleGame\Debug\SimpleGame.exe

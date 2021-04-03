@@ -43,6 +43,8 @@ public:
 
 	void update(float dt);
 
+	bool onContactBegan(PhysicsContact &contact);
+
 private:
 	Sprite* _background;
 	Sprite* _player;

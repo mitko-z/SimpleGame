@@ -1,10 +1,21 @@
 #include "AlienShip.h"
+#include "Definitions.h"
 
 void AlienShip::addShipToScene(float dt)
 {
 	size_t spriteIndex = rand() % m_spritesList.size();
 
 	auto alienShip = Sprite::create(m_spritesList[spriteIndex]);
+
+	auto shipSize = alienShip->getContentSize();
+	auto physicsBody = PhysicsBody::createBox(Size(shipSize.width, shipSize.height),
+		PhysicsMaterial(0.1f, 1.0f, 0.0f));
+	physicsBody->setDynamic(true);
+	physicsBody->setCategoryBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_ALIEN_SHIP);
+	physicsBody->setCollisionBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_NONE);
+	physicsBody->setContactTestBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_PROJECTILE);
+
+	alienShip->setPhysicsBody(physicsBody);
 
 	auto shipContentSize = alienShip->getContentSize();
 	auto selfContentSize = this->getContentSize();

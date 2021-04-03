@@ -4,9 +4,6 @@
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.cpp">
       <Filter>Source Files\proj.win32</Filter>
     </ClCompile>
@@ -16,12 +13,10 @@
     <ClCompile Include="..\Classes\AlienShip.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Game.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\HelloWorldScene.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.h">
@@ -49,6 +44,10 @@
       <Filter>Resources\res</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\AlienShip.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game.h" />
+    <ClInclude Include="..\Classes\Definitions.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
   </ItemGroup>
