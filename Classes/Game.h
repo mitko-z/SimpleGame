@@ -41,9 +41,14 @@ public:
 
 	bool onTouchBegan(Touch *touch, Event *unused_event);
 
+	void update(float dt);
+
 private:
 	Sprite* _background;
 	Sprite* _player;
+	bool _playerCanFire{ true };
+	const float _playerFiringRate{ 5.0f };
+	float _timeRemainingToNextFire{ 0.0f };
 };
 
 #endif // __GAME_H__

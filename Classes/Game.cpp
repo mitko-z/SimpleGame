@@ -65,6 +65,8 @@ bool Game::init()
 
 	srand((unsigned int)time(nullptr));
 	this->schedule(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), 10);
+	
+	this->scheduleUpdate();
 
 	auto eventListener = EventListenerTouchOneByOne::create();
 	eventListener->onTouchBegan = CC_CALLBACK_2(Game::onTouchBegan, this);
@@ -73,30 +75,43 @@ bool Game::init()
     return true;
 }
 
-bool Game::onTouchBegan(Touch *touch, Event *unused_event) {
-	// 1  - Just an example for how to get the  _player object
-	//auto node = unused_event->getCurrentTarget();
+bool Game::onTouchBegan(Touch *touch, Event *unused_event) 
+{
+	if (_playerCanFire)
+	{
+		_playerCanFire = false;
+		_timeRemainingToNextFire = _playerFiringRate;
 
-	// 2
-	Vec2 touchLocation = touch->getLocation();
-	Vec2 offset = touchLocation - _player->getPosition();
+		Vec2 touchLocation = touch->getLocation();
+		Vec2 offset = touchLocation - _player->getPosition();
 
-	// 4
-	auto projectile = Sprite::create("res/shoot-4.png");
-	projectile->setPosition(_player->getPosition());
-	this->addChild(projectile);
+		auto projectile = Sprite::create("res/shoot-4.png");
+		projectile->setPosition(_player->getPosition());
+		this->addChild(projectile);
 
-	// 5
-	offset.normalize();
-	auto shootAmount = offset * 1000;
+		offset.normalize();
+		auto shootAmount = offset * 1000;
 
-	// 6
-	auto realDest = shootAmount + projectile->getPosition();
+		auto realDest = shootAmount + projectile->getPosition();
 
-	// 7
-	auto actionMove = MoveTo::create(10.0f, realDest);
-	auto actionRemove = RemoveSelf::create();
-	projectile->runAction(Sequence::create(actionMove, actionRemove, nullptr));
+		auto actionMove = MoveTo::create(10.0f, realDest);
+		auto actionRemove = RemoveSelf::create();
+		projectile->runAction(Sequence::create(actionMove, actionRemove, nullptr));
+	}
 
 	return true;
+}
+
+void Game::update(float dt)
+{
+	if (!_playerCanFire) 
+	{
+		_timeRemainingToNextFire -= dt;
+		// check if time ran out
+		if (_timeRemainingToNextFire <= 0.f) 
+		{
+			_playerCanFire = true;
+		}
+	}
+
 }
