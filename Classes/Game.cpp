@@ -103,9 +103,13 @@ bool Game::init()
 			this->addChild(_background);
 			_backgroundMusicID = AudioEngine::play2d("audio/Through and Through - Amulets.mp3");
 
-			auto eventListener = EventListenerTouchOneByOne::create();
-			eventListener->onTouchBegan = CC_CALLBACK_2(Game::onTouchBegan, this);
-			this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(eventListener, this);
+			auto eventListenerTouch = EventListenerTouchOneByOne::create();
+			eventListenerTouch->onTouchBegan = CC_CALLBACK_2(Game::onTouchBegan, this);
+			this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(eventListenerTouch, this);
+
+			auto eventListenerAnyKey = EventListenerKeyboard::create();
+			eventListenerAnyKey->onKeyPressed = CC_CALLBACK_2(Game::onKeyPressed, this);
+			this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(eventListenerAnyKey, this);
 		}
 		break;
 	}
@@ -167,14 +171,21 @@ bool Game::onTouchBegan(Touch *touch, Event *unused_event)
 		break;
 		case MODE::GAME_OVER_MODE:
 		{
-			eventsHolder->setMode(MODE::GAME_MODE);
-			unregisterObjects();
-			AudioEngine::stop(_backgroundMusicID);
-			init();
+			setGameOverToGameMode();
 		}
 		break;
 	}
 
+	return true;
+}
+
+bool Game::onKeyPressed(EventKeyboard::KeyCode keyCode, Event * unused_event)
+{
+	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
+	if (eventsHolder->getMode() == MODE::GAME_OVER_MODE)
+	{
+		setGameOverToGameMode();
+	}
 	return true;
 }
 
@@ -255,4 +266,13 @@ void Game::initPlayerProperties()
 	_playerFiringRate = 5.0f;
 	_timeRemainingToNextPlayerFire = 0.0f;
 	_projectileDuration = 10.0f;
+}
+
+void Game::setGameOverToGameMode()
+{
+	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
+	eventsHolder->setMode(MODE::GAME_MODE);
+	unregisterObjects();
+	AudioEngine::stop(_backgroundMusicID);
+	init();
 }

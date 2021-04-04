@@ -45,6 +45,8 @@ public:
     CREATE_FUNC(Game);
 
 	bool onTouchBegan(Touch *touch, Event *unused_event);
+	
+	bool onKeyPressed(EventKeyboard::KeyCode keyCode, Event *unused_event);
 
 	void update(float dt);
 
@@ -54,6 +56,8 @@ private:
 	void unregisterObjects();
 
 	void initPlayerProperties();
+
+	void setGameOverToGameMode();
 
 #pragma region members
 	Sprite* _background;

@@ -1,2 +1,4 @@
 ﻿  Copying resources for SimpleGame ...
+  Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/CMakeLists.txt
+  CMake does not need to re-run because E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/CMakeFiles/generate.stamp is up-to-date.
       copying to E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/bin/SimpleGame/Debug/Resources
