@@ -52,12 +52,14 @@ public:
 
 	bool onContactBegan(PhysicsContact &contact);
 
+	void startGameDisplayInitialText(float dt);
+
 private:
 	void unregisterObjects();
 
 	void initPlayerProperties();
 
-	void setGameOverToGameMode();
+	void setGameOverToStartGameMode();
 
 #pragma region members
 	Sprite* _background;

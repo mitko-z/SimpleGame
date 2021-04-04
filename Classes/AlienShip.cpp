@@ -66,6 +66,11 @@ float AlienShip::calculateNextTimeOfAppearance()
 	return result;
 }
 
+float AlienShip::getTimeOfAppearanceInitial()
+{
+	return TIME_OF_APPEARANCE_INITIAL;
+}
+
 float AlienShip::_timeOfAppearance{ TIME_OF_APPEARANCE_INITIAL };
 float AlienShip::_minDuration{ MIN_DURATION_INITIAL };
 float AlienShip::_maxDuration{ MAX_DURATION_INITIAL };

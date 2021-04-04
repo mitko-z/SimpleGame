@@ -14,5 +14,5 @@ public:
 private:
 	EventsHolder() {}
 
-	MODE _mode{ MODE::GAME_MODE }; // TODO make this to START_GAME_MODE when this mode is ready
+	MODE _mode{ MODE::START_GAME_MODE }; // TODO make this to START_GAME_MODE when this mode is ready
 };

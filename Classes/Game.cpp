@@ -65,6 +65,34 @@ bool Game::init()
 	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
 	switch (eventsHolder->getMode())
 	{
+		case MODE::START_GAME_MODE:
+		{
+			std::string textToDisplay = "SPACE COLONY DEFENCE";
+			TTFConfig fontConfig;
+			fontConfig.bold = true;
+			fontConfig.fontFilePath = "fonts/Vdj.ttf";
+			fontConfig.fontSize = winSize.height / 15;
+			Label* titleLabel;
+			titleLabel = Label::createWithTTF(fontConfig, textToDisplay, TextHAlignment::CENTER);
+			titleLabel->setTextColor(Color4B::GREEN);
+			titleLabel->setPosition(winSize.width / 1.8, winSize.height / 1.1);
+			this->addChild(titleLabel, 10000);
+
+			textToDisplay = "Defend our colony at all cost!\n\nREADY?";
+			fontConfig.fontSize = winSize.height / 20;
+			Label* directionsLabel;
+			directionsLabel = Label::createWithTTF(fontConfig, textToDisplay, TextHAlignment::CENTER);
+			directionsLabel->setTextColor(Color4B::GREEN);
+			directionsLabel->setPosition(winSize.width / 1.8, winSize.height / 2);
+			this->addChild(directionsLabel, 10000);
+
+			this->scheduleOnce(CC_SCHEDULE_SELECTOR(
+				Game::startGameDisplayInitialText), 
+				AlienShip::getTimeOfAppearanceInitial() - 1);
+
+			_backgroundMusicID = AudioEngine::play2d("audio/alarm.mp3");
+		}
+			__fallthrough;
 		case MODE::GAME_MODE:
 		{
 			_background = Sprite::create("res/surface-moon-background_1308-31766.jpg");
@@ -91,8 +119,8 @@ bool Game::init()
 			auto contactListener = EventListenerPhysicsContact::create();
 			contactListener->onContactBegin = CC_CALLBACK_1(Game::onContactBegan, this);
 			this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
-
-			_backgroundMusicID = AudioEngine::play2d("audio/Prism_-_Bobby_Richards_[trimmed].mp3", true);
+			if(eventsHolder->getMode() == MODE::GAME_MODE)
+				_backgroundMusicID = AudioEngine::play2d("audio/Prism_-_Bobby_Richards_[trimmed].mp3", true);
 		}
 		break;
 		case MODE::GAME_OVER_MODE:
@@ -171,7 +199,7 @@ bool Game::onTouchBegan(Touch *touch, Event *unused_event)
 		break;
 		case MODE::GAME_OVER_MODE:
 		{
-			setGameOverToGameMode();
+			setGameOverToStartGameMode();
 		}
 		break;
 	}
@@ -184,7 +212,7 @@ bool Game::onKeyPressed(EventKeyboard::KeyCode keyCode, Event * unused_event)
 	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
 	if (eventsHolder->getMode() == MODE::GAME_OVER_MODE)
 	{
-		setGameOverToGameMode();
+		setGameOverToStartGameMode();
 	}
 	return true;
 }
@@ -194,6 +222,16 @@ void Game::update(float dt)
 	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
 	switch (eventsHolder->getMode())
 	{
+		case MODE::START_GAME_MODE:
+		{
+			if (!this->isScheduled(CC_SCHEDULE_SELECTOR(Game::startGameDisplayInitialText)))
+			{
+				unregisterObjects();
+				eventsHolder->setMode(MODE::GAME_MODE);
+				init();
+			}
+		}
+		break;
 		case MODE::GAME_MODE:
 		{
 			if (!_playerCanFire)
@@ -230,7 +268,6 @@ void Game::update(float dt)
 		{
 			unregisterObjects();
 			eventsHolder->setMode(MODE::GAME_OVER_MODE);
-			AudioEngine::stop(_backgroundMusicID);
 			if (this->isScheduled(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene)))
 			{
 				this->unschedule(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene));
@@ -255,9 +292,16 @@ bool Game::onContactBegan(PhysicsContact & contact)
 	return true;
 }
 
+void Game::startGameDisplayInitialText(float dt)
+{
+
+}
+
 void Game::unregisterObjects()
 {
 	this->removeAllChildren();
+	AudioEngine::stop(_backgroundMusicID);
+
 }
 
 void Game::initPlayerProperties()
@@ -268,10 +312,10 @@ void Game::initPlayerProperties()
 	_projectileDuration = 10.0f;
 }
 
-void Game::setGameOverToGameMode()
+void Game::setGameOverToStartGameMode()
 {
 	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
-	eventsHolder->setMode(MODE::GAME_MODE);
+	eventsHolder->setMode(MODE::START_GAME_MODE);
 	unregisterObjects();
 	AudioEngine::stop(_backgroundMusicID);
 	init();

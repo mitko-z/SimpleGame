@@ -15,6 +15,8 @@ public:
 	void addShipToScene(float dt);
 
 	static float calculateNextTimeOfAppearance();
+
+	static float getTimeOfAppearanceInitial();
 private:
 	static float _timeOfAppearance;
 	static float _minDuration;

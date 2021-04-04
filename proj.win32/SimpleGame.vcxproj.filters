@@ -163,5 +163,13 @@
     <Media Include="..\Resources\audio\click.mp3">
       <Filter>Resources\audio</Filter>
     </Media>
+    <Media Include="..\Resources\audio\alarm.mp3">
+      <Filter>Resources\audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\Vdj.ttf">
+      <Filter>Resources\fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>
