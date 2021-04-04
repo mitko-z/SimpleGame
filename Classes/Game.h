@@ -53,15 +53,17 @@ public:
 private:
 	void unregisterObjects();
 
+	void initPlayerProperties();
+
 #pragma region members
 	Sprite* _background;
 
 	/// player
 	Sprite* _player;
-	bool _playerCanFire{ true };
-	float _playerFiringRate{ 5.0f };
-	float _timeRemainingToNextPlayerFire{ 0.0f };
-	float _projectileDuration{ 10.0f };
+	bool _playerCanFire;
+	float _playerFiringRate;
+	float _timeRemainingToNextPlayerFire;
+	float _projectileDuration;
 
 	/// audio
 	int _backgroundMusicID;

@@ -76,8 +76,9 @@ bool Game::init()
 			_player->setScale(winSize.width / 800, winSize.height / 800);
 			_player->setPosition(Vec2(winSize.width * 0.55, winSize.height * 0.1));
 			this->addChild(_player);
+			initPlayerProperties();
 
-
+			AlienShip::initProperties();
 			srand((unsigned int)time(nullptr));
 			this->scheduleOnce(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), AlienShip::calculateNextTimeOfAppearance());
 
@@ -101,6 +102,10 @@ bool Game::init()
 			_background->setScale(winSize.width / 405, winSize.height / 270);
 			this->addChild(_background);
 			_backgroundMusicID = AudioEngine::play2d("audio/Through and Through - Amulets.mp3");
+
+			auto eventListener = EventListenerTouchOneByOne::create();
+			eventListener->onTouchBegan = CC_CALLBACK_2(Game::onTouchBegan, this);
+			this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(eventListener, this);
 		}
 		break;
 	}
@@ -110,43 +115,60 @@ bool Game::init()
 
 bool Game::onTouchBegan(Touch *touch, Event *unused_event) 
 {
-	if (_playerCanFire)
+	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
+
+	switch (eventsHolder->getMode())
 	{
-		_playerCanFire = false;
-		_timeRemainingToNextPlayerFire = _playerFiringRate;
-		_playerFiringRate -= PLAYER_FIRING_RATE_STEP_DECREASING;
-		if (_playerFiringRate < PLAYER_MIN_FIRING_RATE) 
-			_playerFiringRate = PLAYER_MIN_FIRING_RATE;
+		case MODE::GAME_MODE:
+		{
+			if (_playerCanFire)
+			{
+				_playerCanFire = false;
+				_timeRemainingToNextPlayerFire = _playerFiringRate;
+				_playerFiringRate -= PLAYER_FIRING_RATE_STEP_DECREASING;
+				if (_playerFiringRate < PLAYER_MIN_FIRING_RATE)
+					_playerFiringRate = PLAYER_MIN_FIRING_RATE;
 
-		Vec2 touchLocation = touch->getLocation();
-		Vec2 offset = touchLocation - _player->getPosition();
+				Vec2 touchLocation = touch->getLocation();
+				Vec2 offset = touchLocation - _player->getPosition();
 
-		auto projectile = Sprite::create("res/shoot-4.png");
-		projectile->setPosition(_player->getPosition());
+				auto projectile = Sprite::create("res/shoot-4.png");
+				projectile->setPosition(_player->getPosition());
 
-		auto projectileSize = projectile->getContentSize();
-		auto physicsBody = PhysicsBody::createCircle(projectileSize.width / 2);
-		physicsBody->setDynamic(true);
-		physicsBody->setCategoryBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_PROJECTILE);
-		physicsBody->setCollisionBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_NONE);
-		physicsBody->setContactTestBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_ALIEN_SHIP);
-		projectile->setPhysicsBody(physicsBody);
+				auto projectileSize = projectile->getContentSize();
+				auto physicsBody = PhysicsBody::createCircle(projectileSize.width / 2);
+				physicsBody->setDynamic(true);
+				physicsBody->setCategoryBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_PROJECTILE);
+				physicsBody->setCollisionBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_NONE);
+				physicsBody->setContactTestBitmask((int)PHYSICS_CATEGORY::PHYSICS_CATEGORY_ALIEN_SHIP);
+				projectile->setPhysicsBody(physicsBody);
 
-		this->addChild(projectile);
+				this->addChild(projectile);
 
-		offset.normalize();
-		auto shootAmount = offset * 1000;
+				offset.normalize();
+				auto shootAmount = offset * 1000;
 
-		auto realDest = shootAmount + projectile->getPosition();
+				auto realDest = shootAmount + projectile->getPosition();
 
-		auto actionMove = MoveTo::create(_projectileDuration, realDest);
-		_projectileDuration -= PROJECTILE_DURATION_STEP_DECREASING;
-		if (_projectileDuration < PROJECTILE_MIN_DURATION)
-			_projectileDuration = PROJECTILE_MIN_DURATION;
+				auto actionMove = MoveTo::create(_projectileDuration, realDest);
+				_projectileDuration -= PROJECTILE_DURATION_STEP_DECREASING;
+				if (_projectileDuration < PROJECTILE_MIN_DURATION)
+					_projectileDuration = PROJECTILE_MIN_DURATION;
 
-		auto actionRemove = RemoveSelf::create();
-		projectile->runAction(Sequence::create(actionMove, actionRemove, nullptr));
-		AudioEngine::play2d("audio/Laser_Gun.mp3");
+				auto actionRemove = RemoveSelf::create();
+				projectile->runAction(Sequence::create(actionMove, actionRemove, nullptr));
+				AudioEngine::play2d("audio/Laser_Gun.mp3");
+			}
+		}
+		break;
+		case MODE::GAME_OVER_MODE:
+		{
+			eventsHolder->setMode(MODE::GAME_MODE);
+			unregisterObjects();
+			AudioEngine::stop(_backgroundMusicID);
+			init();
+		}
+		break;
 	}
 
 	return true;
@@ -211,12 +233,22 @@ bool Game::onContactBegan(PhysicsContact & contact)
 
 	AudioEngine::play2d("audio/ship_destroyed.mp3");
 
-	nodeA->removeFromParent();
-	nodeB->removeFromParent();
+	if(nodeA)  // check if nodeA and nodeB exist before trying to remove them - they might be removed by other events
+		nodeA->removeFromParent();
+	if(nodeB) 
+		nodeB->removeFromParent();
 	return true;
 }
 
 void Game::unregisterObjects()
 {
 	this->removeAllChildren();
+}
+
+void Game::initPlayerProperties()
+{
+	_playerCanFire = true;
+	_playerFiringRate = 5.0f;
+	_timeRemainingToNextPlayerFire = 0.0f;
+	_projectileDuration = 10.0f;
 }

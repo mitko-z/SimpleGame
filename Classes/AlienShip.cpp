@@ -1,7 +1,21 @@
 #include "AlienShip.h"
 #include "Definitions.h"
 
+#define MIN_DURATION_INITIAL 15
+#define MIN_DURATION_STEP_DECREASING 0.1
+#define MAX_DURATION_INITIAL 30
+#define MAX_DURATION_STEP_DECREASING 0.1
+#define TIME_OF_APPEARANCE_INITIAL 10
+#define TIME_OF_APPEARANCE_STEP_DECREASING 0.1
+#define MIN_TIME_OF_APPEARANCE 0.5
 #define OFSET_FROM_VERTICAL_BORDERS 0.05 // 5 percents
+
+void AlienShip::initProperties()
+{
+	_timeOfAppearance = TIME_OF_APPEARANCE_INITIAL;
+	_minDuration = MIN_DURATION_INITIAL;
+	_maxDuration = MAX_DURATION_INITIAL;
+}
 
 void AlienShip::addShipToScene(float dt)
 {
@@ -52,9 +66,9 @@ float AlienShip::calculateNextTimeOfAppearance()
 	return result;
 }
 
-float AlienShip::_timeOfAppearance{ 10 };
-float AlienShip::_minDuration{ 15 };
-float AlienShip::_maxDuration{ 30 };
+float AlienShip::_timeOfAppearance{ TIME_OF_APPEARANCE_INITIAL };
+float AlienShip::_minDuration{ MIN_DURATION_INITIAL };
+float AlienShip::_maxDuration{ MAX_DURATION_INITIAL };
 std::vector<std::string> AlienShip::_spritesList
 											{
 												"res/Ship-1.png",
