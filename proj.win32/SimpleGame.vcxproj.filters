@@ -14,6 +14,9 @@
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Game.cpp" />
+    <ClCompile Include="..\Classes\EventsHolder.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.h">
@@ -41,13 +44,16 @@
       <Filter>Resources\fonts</Filter>
     </ClInclude>
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Resources\res\.gitkeep">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\AlienShip.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Game.h" />
     <ClInclude Include="..\Classes\Definitions.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EventsHolder.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
   </ItemGroup>
@@ -78,64 +84,67 @@
     <Filter Include="Resources\audio">
       <UniqueIdentifier>{46f1d5b6-8cc3-4d83-8ffe-f0f04ce13766}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resources\graphis">
+    <Filter Include="Resources\graphics">
       <UniqueIdentifier>{4D1E98E2-F39C-3F56-9511-3D2C4DED3F34}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\res\direction.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-1.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-2.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-3.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-4.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-5.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-6.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-6b.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-7.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-8.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-9.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-10.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-11.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-jelly.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Ship-jelly-2.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Spaceman.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\Spaceman-shot1_004.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
     </Image>
     <Image Include="..\Resources\res\shoot-4.png">
-      <Filter>Resources\graphis</Filter>
+      <Filter>Resources\graphics</Filter>
+    </Image>
+    <Image Include="..\Resources\res\Game Over Screen.png">
+      <Filter>Resources\graphics</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +155,9 @@
       <Filter>Resources\audio</Filter>
     </Media>
     <Media Include="..\Resources\audio\ship_destroyed.mp3">
+      <Filter>Resources\audio</Filter>
+    </Media>
+    <Media Include="..\Resources\audio\Through and Through - Amulets.mp3">
       <Filter>Resources\audio</Filter>
     </Media>
   </ItemGroup>

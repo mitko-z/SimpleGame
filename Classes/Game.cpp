@@ -23,10 +23,12 @@
  ****************************************************************************/
 
 #include "Game.h"
+
+#include "AudioEngine.h"
+
 #include "AlienShip.h"
 #include "Definitions.h"
-#include "AudioEngine.h"
-#include "2d/CCAnimation.h"
+#include "EventsHolder.h"
 
 USING_NS_CC;
 
@@ -59,34 +61,49 @@ bool Game::init()
         return false;
     }
 
-    auto winSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
+	auto winSize = Director::getInstance()->getVisibleSize();
+	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
+	switch (eventsHolder->getMode())
+	{
+		case MODE::GAME_MODE:
+		{
+			_background = Sprite::create("res/surface-moon-background_1308-31766.jpg");
+			_background->setPosition(winSize.width * 0.5, winSize.height * 0.5);
+			_background->setScale(winSize.width / 200, winSize.height / 100);
+			this->addChild(_background);
 
-	_background = Sprite::create("res/surface-moon-background_1308-31766.jpg");
-	_background->setPosition(winSize.width * 0.5, winSize.height * 0.5);
-	_background->setScale(winSize.width / 200, winSize.height / 100);
-	this->addChild(_background);
-
-	_player = Sprite::create("res/Spaceman.png");
-	_player->setScale(winSize.width / 800, winSize.height / 800);
-	_player->setPosition(Vec2(winSize.width * 0.55, winSize.height * 0.1));
-	this->addChild(_player);
+			_player = Sprite::create("res/Spaceman.png");
+			_player->setScale(winSize.width / 800, winSize.height / 800);
+			_player->setPosition(Vec2(winSize.width * 0.55, winSize.height * 0.1));
+			this->addChild(_player);
 
 
-	srand((unsigned int)time(nullptr));
-	this->scheduleOnce(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), AlienShip::calculateNextTimeOfAppearance());
-	
-	this->scheduleUpdate();
+			srand((unsigned int)time(nullptr));
+			this->scheduleOnce(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), AlienShip::calculateNextTimeOfAppearance());
 
-	auto eventListener = EventListenerTouchOneByOne::create();
-	eventListener->onTouchBegan = CC_CALLBACK_2(Game::onTouchBegan, this);
-	this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(eventListener, _player);
+			this->scheduleUpdate();
 
-	auto contactListener = EventListenerPhysicsContact::create();
-	contactListener->onContactBegin = CC_CALLBACK_1(Game::onContactBegan, this);
-	this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
+			auto eventListener = EventListenerTouchOneByOne::create();
+			eventListener->onTouchBegan = CC_CALLBACK_2(Game::onTouchBegan, this);
+			this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(eventListener, _player);
 
-	AudioEngine::play2d("audio/Prism_-_Bobby_Richards_[trimmed].mp3", true);
+			auto contactListener = EventListenerPhysicsContact::create();
+			contactListener->onContactBegin = CC_CALLBACK_1(Game::onContactBegan, this);
+			this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(contactListener, this);
+
+			_backgroundMusicID = AudioEngine::play2d("audio/Prism_-_Bobby_Richards_[trimmed].mp3", true);
+		}
+		break;
+		case MODE::GAME_OVER_MODE:
+		{
+			_background = Sprite::create("res/Game Over Screen.png");
+			_background->setPosition(winSize.width * 0.56, winSize.height * 0.5);
+			_background->setScale(winSize.width / 405, winSize.height / 270);
+			this->addChild(_background);
+			_backgroundMusicID = AudioEngine::play2d("audio/Through and Through - Amulets.mp3");
+		}
+		break;
+	}
 
     return true;
 }
@@ -137,19 +154,53 @@ bool Game::onTouchBegan(Touch *touch, Event *unused_event)
 
 void Game::update(float dt)
 {
-	if (!_playerCanFire) 
+	std::shared_ptr<EventsHolder> eventsHolder = EventsHolder::getInstnce();
+	switch (eventsHolder->getMode())
 	{
-		_timeRemainingToNextPlayerFire -= dt;
-		// check if time ran out
-		if (_timeRemainingToNextPlayerFire <= 0.f) 
+		case MODE::GAME_MODE:
 		{
-			_playerCanFire = true;
-		}
-	}
+			if (!_playerCanFire)
+			{
+				_timeRemainingToNextPlayerFire -= dt;
+				// check if time ran out
+				if (_timeRemainingToNextPlayerFire <= 0.f)
+				{
+					_playerCanFire = true;
+				}
+			}
 
-	if (!this->isScheduled(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene)))
-	{
-		this->scheduleOnce(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), AlienShip::calculateNextTimeOfAppearance());
+			if (!this->isScheduled(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene)))
+			{
+				this->scheduleOnce(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene), AlienShip::calculateNextTimeOfAppearance());
+			}
+
+			Vector<Node *> children = this->getChildren();
+			auto winSize = Director::getInstance()->getVisibleSize();
+			for (auto& child : children)
+			{
+				if (child->getTag() == ALIEN_SHIP)
+				{
+					Vec2 shipsPosition = child->getPosition();
+					if (shipsPosition.y <= 0)
+					{
+						eventsHolder->setMode(MODE::TOWARD_GAME_OVER_MODE);
+					}
+				}
+			}
+		}
+		break;
+		case MODE::TOWARD_GAME_OVER_MODE:
+		{
+			unregisterObjects();
+			eventsHolder->setMode(MODE::GAME_OVER_MODE);
+			AudioEngine::stop(_backgroundMusicID);
+			if (this->isScheduled(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene)))
+			{
+				this->unschedule(CC_SCHEDULE_SELECTOR(AlienShip::addShipToScene));
+			}
+			init();
+		}
+		break;
 	}
 }
 
@@ -163,4 +214,9 @@ bool Game::onContactBegan(PhysicsContact & contact)
 	nodeA->removeFromParent();
 	nodeB->removeFromParent();
 	return true;
+}
+
+void Game::unregisterObjects()
+{
+	this->removeAllChildren();
 }

@@ -803,11 +803,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClInclude Include="..\Classes\AlienShip.h" />
     <ClInclude Include="..\Classes\Definitions.h" />
+    <ClInclude Include="..\Classes\EventsHolder.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\Game.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.h" />
     <ClInclude Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\resource.h" />
     <ClCompile Include="..\Classes\AlienShip.cpp" />
+    <ClCompile Include="..\Classes\EventsHolder.cpp" />
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\Game.cpp" />
     <ClCompile Include="E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\main.cpp" />
@@ -908,6 +910,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\res\direction.png" />
+    <Image Include="..\Resources\res\Game Over Screen.png" />
     <Image Include="..\Resources\res\Ship-1.png" />
     <Image Include="..\Resources\res\Ship-10.png" />
     <Image Include="..\Resources\res\Ship-11.png" />
@@ -930,6 +933,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Media Include="..\Resources\audio\Laser_Gun.mp3" />
     <Media Include="..\Resources\audio\Prism_-_Bobby_Richards_[trimmed].mp3" />
     <Media Include="..\Resources\audio\ship_destroyed.mp3" />
+    <Media Include="..\Resources\audio\Through and Through - Amulets.mp3" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

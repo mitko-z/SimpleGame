@@ -36,6 +36,7 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCActionTiledG
   CCFontFreeType.cpp
   CCGrid.cpp
   CCLabelAtlas.cpp
+  CCLabel.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelAtlas.cpp(116): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelAtlas.cpp(117): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelAtlas.cpp(145): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
@@ -47,7 +48,6 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelAtlas.c
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelAtlas.cpp(237): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelAtlas.cpp(238): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelAtlas.cpp(239): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
-  CCLabel.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(163): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(169): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(170): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
@@ -56,43 +56,43 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(28
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(380): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(797): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(1250): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  CCLabelTextFormatter.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(1704): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2188): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2189): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2190): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2201): warning C4018: '<': signed/unsigned mismatch
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelTextFormatter.cpp(113): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2279): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelTextFormatter.cpp(143): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2296): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2297): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2298): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabel.cpp(2299): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
-  CCLabelTextFormatter.cpp
-  CCLayer.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelTextFormatter.cpp(113): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelTextFormatter.cpp(143): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCLabelTextFormatter.cpp(241): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  CCLayer.cpp
   CCLight.cpp
   CCMenu.cpp
   CCMenuItem.cpp
   CCMotionStreak.cpp
-  CCNode.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCMenuItem.cpp(358): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCMenuItem.cpp(369): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CCNode.cpp
   CCNodeGrid.cpp
   CCParallaxNode.cpp
   CCParticleBatchNode.cpp
   CCParticleExamples.cpp
   CCParticleSystem.cpp
   CCParticleSystemQuad.cpp
+  CCProgressTimer.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystem.cpp(423): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystem.cpp(432): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystem.cpp(450): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystem.cpp(882): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCNode.cpp(1978): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCNode.cpp(2063): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCNode.cpp(2064): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCNode.cpp(2065): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystem.cpp(882): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  CCProgressTimer.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(409): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(410): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(411): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
@@ -101,45 +101,45 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSyst
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(430): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(431): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(432): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
-  CCProtectedNode.cpp
-  CCRenderTexture.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCProgressTimer.cpp(241): warning C4018: '<': signed/unsigned mismatch
+  CCProtectedNode.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCProgressTimer.cpp(560): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCProgressTimer.cpp(562): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  CCScene.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCProtectedNode.cpp(401): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCProtectedNode.cpp(418): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCProtectedNode.cpp(419): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCProtectedNode.cpp(420): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCRenderTexture.cpp(167): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCRenderTexture.cpp(170): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CCRenderTexture.cpp
+  CCScene.cpp
   CCSpriteBatchNode.cpp
   CCSprite.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(483): warning C4018: '<=': signed/unsigned mismatch
   CCSpriteFrameCache.cpp
+  CCSpriteFrame.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCRenderTexture.cpp(167): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCRenderTexture.cpp(170): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(483): warning C4018: '<=': signed/unsigned mismatch
+  CCAutoPolygon.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(729): warning C4018: '>=': signed/unsigned mismatch
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(754): warning C4018: '>=': signed/unsigned mismatch
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(783): warning C4018: '>=': signed/unsigned mismatch
-  CCSpriteFrame.cpp
-  CCAutoPolygon.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCSprite.cpp(1538): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCSprite.cpp(1539): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCSprite.cpp(1540): warning C4244: '*=': conversion from 'float' to 'uint8_t', possible loss of data
   CCTextFieldTTF.cpp
   CCTileMapAtlas.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCRenderTexture.cpp(564): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCRenderTexture.cpp(564): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTileMapAtlas.cpp(167): warning C4018: '<': signed/unsigned mismatch
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTileMapAtlas.cpp(171): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTileMapAtlas.cpp(172): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTileMapAtlas.cpp(246): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CCTMXLayer.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(96): warning C4244: 'argument': conversion from 'float' to 'ssize_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(102): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(105): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTileMapAtlas.cpp(167): warning C4018: '<': signed/unsigned mismatch
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTileMapAtlas.cpp(171): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTileMapAtlas.cpp(172): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTileMapAtlas.cpp(246): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCRenderTexture.cpp(564): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCRenderTexture.cpp(564): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(198): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(222): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CCTMXObjectGroup.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(222): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(428): warning C4018: '>=': signed/unsigned mismatch
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(470): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp(472): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
@@ -154,31 +154,31 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXLayer.cpp
   CCTMXTiledMap.cpp
   CCTMXXMLParser.cpp
   CCTransition.cpp
-  CCTransitionPageTurn.cpp
-  CCTransitionProgress.cpp
-  CCTweenFunction.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXXMLParser.cpp(275): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXXMLParser.cpp(359): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXXMLParser.cpp(455): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTransitionPageTurn.cpp(115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXXMLParser.cpp(517): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CCTransitionPageTurn.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTMXXMLParser.cpp(697): warning C4244: 'initializing': conversion from 'float' to 'ssize_t', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTransitionPageTurn.cpp(115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CCTransitionProgress.cpp
+  CCTweenFunction.cpp
   CCAABB.cpp
   CCAnimate3D.cpp
   CCAnimation3D.cpp
   CCAttachNode.cpp
   CCBillBoard.cpp
   CCBundle3D.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTransition.cpp(1429): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CCBundle3DData.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTransition.cpp(1625): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CCBundleReader.cpp
   CCFrustum.cpp
   CCMesh.cpp
   CCMeshSkin.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTransition.cpp(1429): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CCMeshVertexIndexData.cpp
   CCMotionStreak3D.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCMesh.cpp(350): warning C4018: '<=': signed/unsigned mismatch
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTransition.cpp(1625): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CCOBB.cpp
   CCObjLoader.cpp
   CCPlane.cpp
@@ -188,6 +188,7 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\2d\CCTransition.c
   CCSprite3D.cpp
   CCSprite3DMaterial.cpp
   CCTerrain.cpp
+  CCVertexAttribBinding.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(225): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(226): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(292): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
@@ -201,18 +202,17 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(361): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(388): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(404): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  CCVertexAttribBinding.cpp
+  CC3DProgramInfo.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(548): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(549): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(550): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(551): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  CC3DProgramInfo.cpp
-  CCStdC-win32.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(917): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(918): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(950): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(994): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(997): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  CCStdC-win32.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1009): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1011): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1018): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
@@ -226,7 +226,6 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1065): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1066): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1067): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
-  CCUtils-win32.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1141): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1142): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1382): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
@@ -236,6 +235,7 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1424): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1530): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(1531): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  CCUtils-win32.cpp
   CCFileUtils-win32.cpp
   CCCommon-win32.cpp
   CCApplication-win32.cpp
@@ -247,31 +247,30 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\3d\CCTerrain.cpp(
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\desktop\CCGLViewImpl-desktop.cpp(683): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\desktop\CCGLViewImpl-desktop.cpp(683): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   CCFileUtils.cpp
-  CCImage.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\CCGLView.cpp(262): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\CCGLView.cpp(261): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\CCGLView.cpp(260): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\platform\CCGLView.cpp(259): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CCImage.cpp
   CCPhysicsBody.cpp
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(55): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(91): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(92): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(172): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp(346): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp(399): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   CCPhysicsContact.cpp
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(55): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(91): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(92): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(172): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
   CCPhysicsJoint.cpp
   CCPhysicsShape.cpp
+  CCPhysicsWorld.cpp
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(55): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(55): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(91): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(92): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(91): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(92): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(172): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(172): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsContact.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(55): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsJoint.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(91): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsJoint.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(92): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsJoint.cpp)
@@ -285,7 +284,6 @@ e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\inclu
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(172): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsShape.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsShape.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsShape.cpp)
-  CCPhysicsWorld.cpp
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsShape.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(55): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsWorld.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(91): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsWorld.cpp)
@@ -294,8 +292,10 @@ e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\inclu
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsWorld.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsWorld.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsWorld.cpp)
-  CCPhysics3D.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp(346): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsWorld.cpp(205): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysicsBody.cpp(399): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CCPhysics3D.cpp
   CCPhysics3DComponent.cpp
   CCPhysics3DConstraint.cpp
   CCPhysics3DDebugDrawer.cpp
@@ -319,25 +319,26 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\physics\CCPhysics
   CCNavMeshObstacle.cpp
   CCNavMeshUtils.cpp
   CCCallbackCommand.cpp
-  CCCustomCommand.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(127): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(134): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(147): warning C4244: 'argument': conversion from 'const unsigned int' to 'float', possible loss of data
+  CCCustomCommand.cpp
   CCGroupCommand.cpp
   CCMaterial.cpp
   CCMeshCommand.cpp
   CCPass.cpp
   CCQuadCommand.cpp
-  CCRenderCommand.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCQuadCommand.cpp(66): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  CCRenderCommand.cpp
   CCRenderState.cpp
   CCRenderer.cpp
   CCTechnique.cpp
-  CCTexture2D.cpp
-  CCTextureAtlas.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCRenderer.cpp(612): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  CCTexture2D.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCRenderer.cpp(858): warning C4244: '=': conversion from 'const unsigned int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCRenderer.cpp(899): warning C4244: 'return': conversion from 'const float' to 'unsigned int', possible loss of data
+  CCTextureAtlas.cpp
+  CCTextureCache.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextureAtlas.cpp(194): warning C4018: '<': signed/unsigned mismatch
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextureAtlas.cpp(212): warning C4018: '<': signed/unsigned mismatch
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextureAtlas.cpp(214): warning C4018: '<': signed/unsigned mismatch
@@ -350,17 +351,16 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextur
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextureAtlas.cpp(358): warning C4018: '>': signed/unsigned mismatch
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextureAtlas.cpp(438): warning C4018: '<=': signed/unsigned mismatch
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextureAtlas.cpp(439): warning C4018: '<': signed/unsigned mismatch
-  CCTextureCache.cpp
   CCTextureCube.cpp
+  CCTextureUtils.cpp
+  CCTrianglesCommand.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTexture2D.cpp(479): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTexture2D.cpp(538): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTexture2D.cpp(571): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTexture2D.cpp(571): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTexture2D.cpp(572): warning C4244: '=': conversion from 'size_t' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTexture2D.cpp(572): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  CCTextureUtils.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextureCache.cpp(456): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  CCTrianglesCommand.cpp
   ccShaders.cpp
   CommandBuffer.cpp
   DepthStencilState.cpp
@@ -379,16 +379,16 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\CCTextur
   DepthStencilStateGL.cpp
   DeviceGL.cpp
   ProgramGL.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(260): warning C4244: 'argument': conversion from 'const float' to 'GLint', possible loss of data
   RenderPipelineGL.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(599): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(599): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
   ShaderModuleGL.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(627): warning C4018: '<': signed/unsigned mismatch
   TextureGL.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(260): warning C4244: 'argument': conversion from 'const float' to 'GLint', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\TextureGL.cpp(319): warning C4018: '<': signed/unsigned mismatch
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\TextureGL.cpp(438): warning C4018: '<': signed/unsigned mismatch
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(599): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(599): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
   UtilsGL.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(627): warning C4018: '<': signed/unsigned mismatch
   DeviceInfoGL.cpp
   CCAsyncTaskPool.cpp
   CCAutoreleasePool.cpp
@@ -397,6 +397,7 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\renderer\backend\
   CCController.cpp
   CCData.cpp
   CCNinePatchImageParser.cpp
+  CCDirector.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCNinePatchImageParser.cpp(50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCNinePatchImageParser.cpp(68): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCNinePatchImageParser.cpp(70): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
@@ -406,7 +407,6 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCNinePatchI
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCNinePatchImageParser.cpp(132): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCNinePatchImageParser.cpp(147): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCNinePatchImageParser.cpp(164): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  CCDirector.cpp
   CCEvent.cpp
   CCEventAcceleration.cpp
   CCEventController.cpp
@@ -428,33 +428,33 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCNinePatchI
   CCNS.cpp
   CCProfiling.cpp
   CCProperties.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCProfiling.cpp(162): warning C4244: '=': conversion from 'float' to 'long', possible loss of data
   CCRef.cpp
   CCScheduler.cpp
   CCScriptSupport.cpp
   CCTouch.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCProfiling.cpp(162): warning C4244: '=': conversion from 'float' to 'long', possible loss of data
   CCUserDefault.cpp
   CCValue.cpp
   ObjectFactory.cpp
   CCStencilStateManager.cpp
   TGAlib.cpp
   ZipUtils.cpp
-  atitc.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\CCValue.cpp(586): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  atitc.cpp
   base64.cpp
-  ccCArray.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\base64.cpp(45): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  ccCArray.cpp
   ccFPSImages.c
   ccRandom.cpp
   ccTypes.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccTypes.cpp(57): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccTypes.cpp(58): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccTypes.cpp(59): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
-  ccUTF8.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccTypes.cpp(114): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccTypes.cpp(115): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccTypes.cpp(116): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccTypes.cpp(117): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+  ccUTF8.cpp
   ccUtils.cpp
   etc1.cpp
   pvr.cpp
@@ -464,9 +464,9 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccTypes.cpp(
   MciPlayer.cpp
   AudioEngine-win32.cpp
   AudioCache.cpp
-  AudioPlayer.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccUtils.cpp(185): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccUtils.cpp(206): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  AudioPlayer.cpp
   AudioDecoder.cpp
   AudioDecoderManager.cpp
   AudioDecoderMp3.cpp
@@ -476,11 +476,11 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\base\ccUtils.cpp(
   UIButton.cpp
   UIAbstractCheckButton.cpp
   UICheckBox.cpp
-  UIRadioButton.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp(280): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp(279): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp(278): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp(277): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  UIRadioButton.cpp
   UIHBox.cpp
   UIHelper.cpp
   UIImageView.cpp
@@ -493,49 +493,50 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEd
   UIPageViewIndicator.cpp
   UIRelativeBox.cpp
   UIRichText.cpp
-  UIScale9Sprite.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIPageViewIndicator.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UILayout.cpp(1113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UILayout.cpp(1121): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UILayout.cpp(1131): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UILayout.cpp(1151): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UILayout.cpp(1158): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UILayout.cpp(1168): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  UIScale9Sprite.cpp
   UIScrollView.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIPageViewIndicator.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'uint8_t', possible loss of data
   UIScrollViewBar.cpp
   UISlider.cpp
   UIText.cpp
   UITextAtlas.cpp
-  UITextBMFont.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UISlider.cpp(508): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UISlider.cpp(517): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIScrollViewBar.cpp(52): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
+  UITextBMFont.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIScrollViewBar.cpp(206): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIText.cpp(391): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIText.cpp(396): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIText.cpp(405): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIText.cpp(454): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UISlider.cpp(508): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UISlider.cpp(517): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   UITextField.cpp
   UIVBox.cpp
   UIWidget.cpp
   UIEditBox.cpp
   UILayoutComponent.cpp
   UIEditBoxImpl-common.cpp
-  UITabControl.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITextField.cpp(446): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITextField.cpp(449): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITextField.cpp(454): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITextField.cpp(480): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  UITabControl.cpp
+  HttpClient.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(108): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(163): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(170): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(185): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(192): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  HttpClient.cpp
   SocketIO.cpp
   WebSocket.cpp
   CCDownloader.cpp
+  CCDownloader-curl.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.cpp(102): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.cpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
@@ -547,13 +548,12 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.c
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.cpp(241): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.cpp(246): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.cpp(268): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  CCDownloader-curl.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.cpp(272): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\ui\UITabControl.cpp(448): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\websockets\include\win32\lws_config.h(56): warning C4005: 'LWS_WITH_LIBUV': macro redefinition (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\network\WebSocket.cpp)
   E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\precheader.cpp: note: see previous definition of 'LWS_WITH_LIBUV' (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\network\WebSocket.cpp)
-  Uri.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\network\CCDownloader-curl.cpp(723): warning C4244: 'argument': conversion from 'int64_t' to 'size_t', possible loss of data
+  Uri.cpp
   SimpleAudioEngine.cpp
   CCActionFrame.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCActionFrame.cpp(336): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
@@ -564,8 +564,8 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
   CCActionNode.cpp
   CCActionObject.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCActionNode.cpp(207): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  CCArmature.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCActionObject.cpp(195): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  CCArmature.cpp
   CCArmatureAnimation.cpp
   CCArmatureDataManager.cpp
   CCArmatureDefine.cpp
@@ -573,23 +573,22 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
   CCBone.cpp
   CCColliderDetector.cpp
   CCComAttribute.cpp
-  CCComAudio.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCArmatureAnimation.cpp(235): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCArmatureAnimation.cpp(445): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCArmatureAnimation.cpp(454): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CCComAudio.cpp
   CCComController.cpp
   CCComRender.cpp
   CCDataReaderHelper.cpp
   CCDatas.cpp
   CCDecorativeDisplay.cpp
   CCDisplayFactory.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDatas.cpp(127): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDatas.cpp(128): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
   CCDisplayManager.cpp
   CCInputDelegate.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDatas.cpp(127): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDatas.cpp(128): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
   CCProcessBase.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCProcessBase.cpp(129): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCProcessBase.cpp(155): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CCSGUIReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(904): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(921): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(926): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -629,11 +628,13 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2518): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2522): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2526): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  CCSGUIReader.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCProcessBase.cpp(129): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCProcessBase.cpp(155): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   CCSSceneReader.cpp
   CCSkin.cpp
   CCSpriteFrameCacheHelper.cpp
   CCTransformHelp.cpp
+  CCTween.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(105): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(106): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -642,19 +643,18 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(132): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(133): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  CCTween.cpp
-  CCUtilMath.cpp
-  CocoLoader.cpp
-  DictionaryHelper.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(769): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  LocalizationManager.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(891): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(938): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(1021): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  TriggerBase.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(1175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(1298): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(1300): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CCUtilMath.cpp
+  CocoLoader.cpp
+  DictionaryHelper.cpp
+  LocalizationManager.cpp
+  TriggerBase.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(121): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(148): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(268): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -669,38 +669,26 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
   FlatBuffersSerialize.cpp
   CCComExtensionData.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(344): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CocoStudio.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(521): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(526): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(546): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(551): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(556): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  CocoStudio.cpp
   WidgetCallBackHandlerProtocol.cpp
   NodeReader.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
   SingleNodeReader.cpp
   SpriteReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\TriggerMng.cpp(277): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\TriggerMng.cpp(353): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -712,12 +700,12 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(145): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  ParticleReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(229): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(233): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(237): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(241): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ParticleReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(262): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(266): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(283): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -734,12 +722,14 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           with
           [
               T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\TriggerMng.cpp(277): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\TriggerMng.cpp(353): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -750,11 +740,19 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp)
   GameMapReader.cpp
   ProjectNodeReader.cpp
   ComAudioReader.cpp
-  WidgetReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(577): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -765,26 +763,25 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+  WidgetReader.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(577): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  LoadingBarReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(806): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(810): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(849): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(853): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(1261): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(1265): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(1539): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  LoadingBarReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp(88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  ListViewReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -795,50 +792,60 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(1539): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ListViewReader.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp(88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp(149): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
   TextFieldReader.cpp
   CheckBoxReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
   SliderReader.cpp
-  PageViewReader.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(90): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(144): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(137): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(176): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(343): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(144): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  PageViewReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(483): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(487): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(107): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(173): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(177): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(181): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(185): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(227): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(575): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(231): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(579): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(583): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(587): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -848,33 +855,16 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(633): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(650): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(654): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(248): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(252): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(700): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(704): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(721): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(725): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(742): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(746): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(107): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(173): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(177): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(181): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(185): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(227): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(231): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(248): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(252): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(343): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(347): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(577): warning C4244: 'initializing': conversion from 'int32_t' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
@@ -886,28 +876,51 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
   TextReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
   Node3DReader.cpp
+  UserCameraReader.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+  Particle3DReader.cpp
+  Sprite3DReader.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(138): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(142): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -915,72 +928,66 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(169): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(173): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(264): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  UserCameraReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(268): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  Particle3DReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-  Sprite3DReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
   BoneNodeReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(94): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(98): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  SkeletonNodeReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(95): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(202): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(206): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(223): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(227): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
-  SkeletonNodeReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(108): warning C4244: 'argument': conversion from '_Ret' to 'float', possible loss of data
           with
           [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+              _Ret=int
+          ]
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(144): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(290): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(294): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(437): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(439): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -993,19 +1000,12 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp(96): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp(100): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp(86): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   TextAtlasReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(108): warning C4244: 'argument': conversion from '_Ret' to 'float', possible loss of data
-          with
-          [
-              _Ret=int
-          ]
   LayoutReader.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(144): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(290): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(294): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(437): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(439): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(94): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(98): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp(86): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -1021,41 +1021,51 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
   ButtonReader.cpp
   ScrollViewReader.cpp
   GameNode3DReader.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
   Light3DReader.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp(126): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(407): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(411): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(415): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp(126): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(407): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(411): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(415): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(419): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(442): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(446): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -1065,12 +1075,22 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           with
           [
               T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -1085,32 +1105,12 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           with
           [
               T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593): warning C4305: 'argument': truncation from 'double' to 'T'
-          with
-          [
-              T=float
-          ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(220): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(224): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(228): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -1118,22 +1118,6 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(255): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(259): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   CCActionTimelineCache.cpp
-  CCActionTimeline.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(118): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(122): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(178): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(130): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(182): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(186): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(190): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(221): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(242): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(246): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(263): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(267): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(358): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(362): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(265): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(330): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(334): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -1143,19 +1127,37 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(382): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(409): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(413): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  CCActionTimelineNode.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(882): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(118): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(178): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(182): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(186): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(190): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(221): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(242): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(246): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(263): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(267): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(122): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(130): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(358): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(362): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CCActionTimeline.cpp
+  CCActionTimelineNode.cpp
   CCFrame.cpp
   CCTimeLine.cpp
+  CSLoader.cpp
+  CCBoneNode.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp(202): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp(206): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp(206): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  CCSkeletonNode.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp(717): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp(718): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp(719): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp(772): warning C4244: 'initializing': conversion from 'float' to 'uint8_t', possible loss of data
-  CSLoader.cpp
-  CCBoneNode.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCBoneNode.cpp(54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -1166,9 +1168,7 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
-  CCSkeletonNode.cpp
   CCSkinNode.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCBoneNode.cpp(54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   ArmatureNodeReader.cpp
   TabControlReader.cpp
   AssetsManager.cpp
@@ -1182,6 +1182,7 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+  AssetsManagerEx.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -1192,7 +1193,6 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
-  AssetsManagerEx.cpp
   CCEventAssetsManagerEx.cpp
   CCEventListenerAssetsManagerEx.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp(108): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -1200,6 +1200,7 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\co
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp(187): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp(571): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
   Manifest.cpp
+  CCControl.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
@@ -1210,28 +1211,27 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support/co
           [
               T=float
           ] (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
-  CCControl.cpp
   CCControlButton.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(80): warning C4244: 'argument': conversion from 'int64_t' to 'double', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\Manifest.cpp(434): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   CCControlColourPicker.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(660): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(660): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  CCControlHuePicker.cpp
+  CCControlPotentiometer.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(909): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(909): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1011): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1052): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  CCControlHuePicker.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1161): warning C4305: '+=': truncation from 'double' to 'float'
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\assets-manager\Manifest.cpp(434): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\GUI\CCControlExtension\CCControlButton.cpp(101): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\GUI\CCControlExtension\CCControlColourPicker.cpp(154): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\GUI\CCControlExtension\CCControlColourPicker.cpp(160): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  CCControlPotentiometer.cpp
-  CCControlSaturationBrightnessPicker.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\GUI\CCControlExtension\CCControlPotentiometer.cpp(227): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\GUI\CCControlExtension\CCControlButton.cpp(101): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
+  CCControlSaturationBrightnessPicker.cpp
   CCControlSlider.cpp
-E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   CCControlStepper.cpp
+E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp(73): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   CCControlSwitch.cpp
   CCControlUtils.cpp
   CCInvocation.cpp
@@ -1239,32 +1239,32 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\GUI\CCContro
   CCTableView.cpp
   CCTableViewCell.cpp
   CCPhysicsDebugNode.cpp
+  CCPhysicsSprite.cpp
+  CCParticle3DAffector.cpp
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(55): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(91): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(92): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(172): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
-e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
-  CCPhysicsSprite.cpp
-  CCParticle3DAffector.cpp
-  CCParticle3DEmitter.cpp
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(55): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsSprite.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(91): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsSprite.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(92): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsSprite.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(172): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(172): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsSprite.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsSprite.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsSprite.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(171): warning C4244: 'argument': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
 e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsSprite.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(189): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
+e:\programirane\pokerstars\simplegame\simplegame\cocos2d\external\chipmunk\include\chipmunk\cpTransform.h(190): warning C4244: 'initializing': conversion from 'double' to 'cpFloat', possible loss of data (compiling source file E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
+  CCParticle3DEmitter.cpp
   CCParticle3DRender.cpp
   CCParticleSystem3D.cpp
   CCPUDynamicAttribute.cpp
   CCPUDynamicAttributeTranslator.cpp
   CCPUForceField.cpp
+  CCPUMaterialManager.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp(418): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp(423): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp(425): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  CCPUMaterialManager.cpp
   CCPUMaterialTranslator.cpp
   CCPUNoise.cpp
   CCPUPlane.cpp
@@ -1345,9 +1345,9 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\P
   CCPUEmitter.cpp
   CCPUEmitterManager.cpp
   CCPUEmitterTranslator.cpp
-  CCPULineEmitter.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPUCircleEmitter.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPUCircleEmitter.cpp(132): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CCPULineEmitter.cpp
   CCPULineEmitterTranslator.cpp
   CCPUMeshSurfaceEmitter.cpp
   CCPUMeshSurfaceEmitterTranslator.cpp
@@ -1365,11 +1365,11 @@ E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\P
   CCPUBillboardChain.cpp
   CCPURibbonTrail.cpp
   CCPURibbonTrailRender.cpp
-  CCPUDoAffectorEventHandler.cpp
-  CCPUDoAffectorEventHandlerTranslator.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(170): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CCPUDoAffectorEventHandler.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(526): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(527): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
+  CCPUDoAffectorEventHandlerTranslator.cpp
   CCPUDoEnableComponentEventHandler.cpp
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(946): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 E:\programirane\PokerStars\SimpleGame\SimpleGame\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(947): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data

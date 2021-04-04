@@ -1,7 +1,7 @@
 ﻿  Game.cpp
-  AppDelegate.cpp
-..\Classes\Game.cpp(66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-..\Classes\Game.cpp(72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-..\Classes\Game.cpp(100): warning C4305: '-=': truncation from 'double' to 'float'
-..\Classes\Game.cpp(126): warning C4305: '-=': truncation from 'double' to 'float'
+..\Classes\Game.cpp(71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+..\Classes\Game.cpp(77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+..\Classes\Game.cpp(100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+..\Classes\Game.cpp(117): warning C4305: '-=': truncation from 'double' to 'float'
+..\Classes\Game.cpp(143): warning C4305: '-=': truncation from 'double' to 'float'
   SimpleGame.vcxproj -> E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\bin\SimpleGame\Debug\SimpleGame.exe

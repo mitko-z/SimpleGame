@@ -51,12 +51,21 @@ public:
 	bool onContactBegan(PhysicsContact &contact);
 
 private:
+	void unregisterObjects();
+
+#pragma region members
 	Sprite* _background;
+
+	/// player
 	Sprite* _player;
 	bool _playerCanFire{ true };
 	float _playerFiringRate{ 5.0f };
 	float _timeRemainingToNextPlayerFire{ 0.0f };
 	float _projectileDuration{ 10.0f };
+
+	/// audio
+	int _backgroundMusicID;
+#pragma endregion members
 };
 
 #endif // __GAME_H__

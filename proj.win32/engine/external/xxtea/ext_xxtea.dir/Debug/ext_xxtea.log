@@ -1,1 +1,4 @@
-﻿
+﻿  Building Custom Rule E:/programirane/PokerStars/SimpleGame/SimpleGame/cocos2d/external/xxtea/CMakeLists.txt
+  CMake does not need to re-run because E:/programirane/PokerStars/SimpleGame/SimpleGame/proj.win32/engine/external/xxtea/CMakeFiles/generate.stamp is up-to-date.
+  xxtea.cpp
+  ext_xxtea.vcxproj -> E:\programirane\PokerStars\SimpleGame\SimpleGame\proj.win32\lib\Debug\ext_xxtea.lib

@@ -6,7 +6,7 @@
 void AlienShip::addShipToScene(float dt)
 {
 	size_t spriteIndex = rand() % _spritesList.size();
-
+	
 	auto alienShip = Sprite::create(_spritesList[spriteIndex]);
 
 	auto shipSize = alienShip->getContentSize();
@@ -28,7 +28,7 @@ void AlienShip::addShipToScene(float dt)
 	int randomX = (rand() % rangeX) + minX;
 
 	alienShip->setPosition(Vec2(randomX, selfContentSize.height + shipContentSize.height / 2));
-	this->addChild(alienShip);
+	this->addChild(alienShip, 0, ALIEN_SHIP);
 
 	int rangeDuration = _maxDuration - _minDuration;
 	int randomDuration = (rand() % rangeDuration) + _minDuration;
