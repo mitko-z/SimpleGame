@@ -160,5 +160,8 @@
     <Media Include="..\Resources\audio\Through and Through - Amulets.mp3">
       <Filter>Resources\audio</Filter>
     </Media>
+    <Media Include="..\Resources\audio\click.mp3">
+      <Filter>Resources\audio</Filter>
+    </Media>
   </ItemGroup>
 </Project>

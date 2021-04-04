@@ -1,16 +1,4 @@
-﻿  AlienShip.cpp
-  Game.cpp
-  AppDelegate.cpp
-..\Classes\AlienShip.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-..\Classes\AlienShip.cpp(39): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-..\Classes\AlienShip.cpp(40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-..\Classes\AlienShip.cpp(44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-..\Classes\AlienShip.cpp(47): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-..\Classes\AlienShip.cpp(48): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-..\Classes\AlienShip.cpp(50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-..\Classes\AlienShip.cpp(55): warning C4305: '-=': truncation from 'double' to 'float'
-..\Classes\AlienShip.cpp(56): warning C4305: '-=': truncation from 'double' to 'float'
-..\Classes\AlienShip.cpp(64): warning C4305: '-=': truncation from 'double' to 'float'
+﻿  Game.cpp
 ..\Classes\Game.cpp(71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 ..\Classes\Game.cpp(77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 ..\Classes\Game.cpp(101): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data

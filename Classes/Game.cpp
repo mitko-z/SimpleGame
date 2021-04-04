@@ -159,6 +159,10 @@ bool Game::onTouchBegan(Touch *touch, Event *unused_event)
 				projectile->runAction(Sequence::create(actionMove, actionRemove, nullptr));
 				AudioEngine::play2d("audio/Laser_Gun.mp3");
 			}
+			else
+			{
+				AudioEngine::play2d("audio/click.mp3", false, 0.5f);
+			}
 		}
 		break;
 		case MODE::GAME_OVER_MODE:

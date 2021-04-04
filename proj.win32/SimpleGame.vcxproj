@@ -930,6 +930,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Image Include="..\Resources\res\Spaceman.png" />
   </ItemGroup>
   <ItemGroup>
+    <Media Include="..\Resources\audio\click.mp3" />
     <Media Include="..\Resources\audio\Laser_Gun.mp3" />
     <Media Include="..\Resources\audio\Prism_-_Bobby_Richards_[trimmed].mp3" />
     <Media Include="..\Resources\audio\ship_destroyed.mp3" />
